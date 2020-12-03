@@ -7,12 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>SOCIAL THEME CHANGER</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
 
     html{
       box-sizing:border-box;
@@ -255,33 +253,24 @@
     .social-img{
       margin-top: 25px;
     }
-    @media (min-width:700px) and (max-width:1199px)
-    {
-      .first-container,.second-container{
-        width:50%;
+    @media (max-width: 600px) {
+      body{
+          max-width: 375px;
       }
-    }
 
-    @media (min-width:1200px)
-    {
-
-      .dashboard-row,.review-row,.dashboard-content{
-        display:flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        row-gap: 20px;
+      section{
+          padding: 50px;
       }
+
+      .dashboard-row{
+          flex-direction: column;
+          font-size: 10px;
+      }
+
       .slider-content{
-        width:13%;
+          margin-top: 20px;
+          padding: 0;
       }
-      .review-content,.overview-content
-      {
-        width:22%;
-      }
-      .spaced{
-        margin-top: 0;
-      }
- 
     }
 
   
